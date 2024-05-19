@@ -1,0 +1,73 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #333;
+    overflow: hidden;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.nav .z {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav .z:hover {
+    background-color: #575757;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #444;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.a, #edu, #work, #skills, #end {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.a {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    color: #555;
+}
+
+#edu, #work, #skills, #end {
+    font-family: 'Lato', sans-serif;
+    color: #555;
+}
